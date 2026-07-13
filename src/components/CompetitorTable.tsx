@@ -1,0 +1,4 @@
+import { report } from '../data/report'
+import { SectionHeading } from './SectionHeading'
+
+export function CompetitorTable() { return <section id="competition"><SectionHeading number="04" title="Competitor landscape">Storefront listings establish positioning and prices—not efficacy, usage, sales or market share.</SectionHeading><div className="table-wrap"><table><thead><tr><th>Product</th><th>Role</th><th>Verified offer</th><th>Observed monetization</th><th>Evidence limit</th></tr></thead><tbody>{report.competitors.map((row) => <tr key={row[0]}>{row.map((cell, index) => <td key={cell} className={index === 0 ? 'product' : ''}>{cell}</td>)}</tr>)}</tbody></table></div><div className="comparison-note"><strong>Differentiation implication</strong><span>BabyBus has the broadest reviewed catalog. A smaller entrant should test one clear emotional skill and parent-guided interaction, rather than attempting breadth without evidence.</span></div></section> }

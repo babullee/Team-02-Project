@@ -1,0 +1,4 @@
+import { report } from '../data/report'
+import { SectionHeading } from './SectionHeading'
+
+export function TrendsRisks() { return <section id="risks"><SectionHeading number="06" title="Learning, trends & risks">The evidence supports testing defined outcomes—not generalized speed or interest claims.</SectionHeading><div className="evidence-callout"><strong>What the learning evidence supports</strong><p>A 2024 meta-analysis reports positive average effects across cognition, emotional development, motivation and engagement. A 2025 China study found culturally adapted, teacher-led anger play feasible. Neither validates a commercial app or isolates the target market.</p></div><div className="risk-grid">{report.risks.map(([title, level, detail]) => <article key={title}><div><h3>{title}</h3><span className={`risk-${level.toLowerCase()}`}>{level}</span></div><p>{detail}</p></article>)}</div></section> }
