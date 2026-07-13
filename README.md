@@ -1,5 +1,9 @@
 # Educational Games for Emotional Development
 
+## Live website
+
+[View the GitHub Pages site](https://future-designer-2026.github.io/team-2-at-home-math-learning/)
+
 A local, demo-ready market intelligence report for the China educational games market, focused on emotional development for children ages 5–6.
 
 The experience presents the supplied research as an evidence-based decision brief. It distinguishes verified indicators, proxies, design hypotheses, and explicit evidence gaps; it does not add external statistics or estimates.
