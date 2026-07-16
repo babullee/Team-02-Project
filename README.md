@@ -1,6 +1,6 @@
 # Mathzlet
 
-[View the GitHub Pages site](https://future-designer-2026.github.io/team-2-at-home-math-learning/)
+[View the GitHub Pages site](https://babullee.github.io/Team-02-Project/)
 
 Mathzlet is Team 2’s bilingual mathematics-learning project for children aged 5–6. The current website documents a working digital prototype, its research basis, early qualitative feedback, design intentions, market context, and future plans. It does not claim formally validated learning outcomes.
 
